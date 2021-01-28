@@ -272,7 +272,7 @@ form button{
 }
 
 .line{
-    width: 2.5vw;
+    width: 6vw;
     background-color: white;
     height: 0.2vh;
     margin: 1vh 1vw;
@@ -280,9 +280,9 @@ form button{
 
 @media only screen and (max-width:1140px){
     .fullNav{
-        height: 55vh;
+        height: 50vh;
         flex-direction: column;
-        transition: all 1.2s ease-out;
+        transition: all 0.5s ease-out;
     }
     .box-main{
         flex-direction: column-reverse;
@@ -544,7 +544,7 @@ form button{
 .scroll-indicator3 {
   animation: bounce 2s infinite;
   position: absolute;
-  top: 310%;
+  top: 100%;
   left: 49%;
 }
 
@@ -662,6 +662,9 @@ form button{
     visibility: hidden;
   }
   .scroll-indicator2{
+    visibility: hidden;
+  }
+  .scroll-indicator3{
     visibility: hidden;
   }
 
@@ -792,4 +795,6 @@ form button{
       width: 70%;
   };
 }
+
+body{overflow-x: hidden}
 
