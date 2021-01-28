@@ -542,9 +542,10 @@ form button{
 }
 
 .scroll-indicator3 {
+   
   animation: bounce 2s infinite;
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: 49%;
 }
 
